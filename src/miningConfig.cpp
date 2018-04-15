@@ -5,7 +5,7 @@ static MiningConfig s_cfg;
 
 void initMiningConfig() {
 	s_cfg.poolUrl = "http://aropool.com";
-	s_cfg.devAddress = "419qwxjJLBRdAVttxcJVT84vdmdq3GP6ghXdQdxN6sqbdr5SBXvPU8bvfVzUXWrjrNrJbAJCvW9JYDWvxenus1pK";
+	s_cfg.devAddress = "Pqyy9gGmuzgtt1wfKMmxz3hWYoEsxPLHDTHPheZfWGHWsYNMaKTJs7gsyLY4hwo4jMmPr6gh4qDDsyVoPAW1iTW";
 	s_cfg.address = s_cfg.devAddress;
 	s_cfg.workerID = uniqid();
 	s_cfg.nThreads = 0;
